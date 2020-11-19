@@ -6,6 +6,7 @@ Steps to reproduce:
 2. Close the app.
 3. In Xcode, choose Debug -> Attach to Process by PID or Name -> type in FlurryTest
 4. Launch the app from the device.
-5. Observe - crash on Flurry.setDelegate
+5. Observe - crash on `Flurry.setDelegate` with `Thread 1: Exception: \"-[NSTaggedPointerString unsignedIntValue]: unrecognized selector sent to instance 0xaea8d83dda56ec0b\"`
 
-![Stacktrace](stacktrace.png)
+
+![Stacktrace screenshot](Stacktrace.png)
